@@ -26,7 +26,7 @@
             // attributes added
             "internalConsoleOptions": "openOnSessionStart"
             //, "args": [
-            //     "./BatchJsonTesterObject.json"
+            //     "anArgument"
             // ]
         }
     ]
