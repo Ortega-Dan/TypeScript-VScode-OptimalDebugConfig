@@ -1,0 +1,33 @@
+{
+    // This is de default debugging launcher created by vscode when having 
+    // a tsconfig.json and a .ts file to debug.
+    //
+    // Comments are provided to inform of attributes additions, deletions, or changes
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            // attribute changed 
+            // (to point to the custom task that compiles on save of files)
+            "preLaunchTask": "tscWatcher",
+            //
+            // attribute changed 
+            // (it originally pointed to a specific file)
+            "program": "${file}",
+            //
+            // attributes added
+            "internalConsoleOptions": "openOnSessionStart"
+            //, "args": [
+            //     "./BatchJsonTesterObject.json"
+            // ]
+        }
+    ]
+}

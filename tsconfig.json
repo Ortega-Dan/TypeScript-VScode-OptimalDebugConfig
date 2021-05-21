@@ -1,0 +1,10 @@
+// This is the basic tsconfig recommended by vscode team for debugging.
+// Info at: https://code.visualstudio.com/docs/typescript/typescript-tutorial
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "out",
+        "sourceMap": true
+    }
+}

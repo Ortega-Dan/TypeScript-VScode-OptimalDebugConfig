@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "tscWatcher",
+            "type": "shell",
+            "command": "tsc -w",
+            "isBackground": true,
+            "presentation": {
+                "focus": true,
+                "panel": "dedicated",
+                "clear": true
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": ""
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": {
+                        "regexp": ".*compilation.*"
+                    },
+                    "endsPattern": {
+                        "regexp": ".*Watching for file changes.*"
+                    }
+                }
+            }
+        }
+    ]
+}
