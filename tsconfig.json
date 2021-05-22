@@ -6,5 +6,9 @@
         "module": "commonjs",
         "outDir": "out",
         "sourceMap": true
-    }
+    },
+    // attribute added
+    "exclude": [
+        "node_modules"
+    ]
 }
