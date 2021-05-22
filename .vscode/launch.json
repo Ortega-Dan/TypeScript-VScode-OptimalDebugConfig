@@ -23,6 +23,10 @@
             // (it originally pointed to a specific file)
             "program": "${file}",
             //
+            // attributed added and commented 
+            // (comment "internalConsoleOptions" if uncommenting this)
+            // "console": "integratedTerminal",
+            // 
             // attributes added
             "internalConsoleOptions": "openOnSessionStart"
             //, "args": [
